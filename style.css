@@ -1,0 +1,159 @@
+ *{
+            background: hsl(107, 83%, 16%) fixed;
+            color:#fff;
+            background-image: url(image.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-blend-mode: darken;
+            
+        }
+        .main-header{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .main-header img{
+            height: 70px;
+            width: auto;
+        }
+        .main-header h1{
+            font-size: 48px;
+            color: brown;
+            /* background-color: lightyellow; */
+            padding:5px 15px;
+            border-radius: 10px;
+            font-family: 'Arial', sans-serif;
+        }
+        #food{
+            margin: 0% 2%;
+            font-family: 'Arial', sans-serif;
+            font-size: 300%;
+            color: brown;
+            background-color: lightyellow;
+            border-radius: 10px;
+            padding: 5px;
+            height: 50px;
+            display: inline-block;
+        }
+       nav div{
+            align-items: center;
+            justify-content: center;
+        }
+        nav img{
+           display: inline-block;
+            height: 70px;
+        }
+        
+        #home img{
+            width: 100px;
+            height: 100px;
+            margin-left: 14%; 
+        }
+        #home h1,p{
+            text-align: center;
+        }
+        #lists ul li, ol li{
+            text-align: center;
+            list-style: none;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            
+        }
+        h3{
+            text-align: center;
+            /* margin: 0% 40%; */
+        }
+        caption{
+            text-align: center;
+        }
+        table{
+            margin: 0% 0% 0% 38%;
+            /* align-items: center; */
+            text-align: left;
+        }
+       
+        table tr{
+            /* text-align: center; */
+        }
+        .media_and_message_area{
+            text-align: center;
+            margin: 5% 0%;
+        }
+        #contact-form{
+            text-align: center;
+            margin: 5% 0%;
+        }
+        #contact-form input,textarea{
+            background: scroll black;
+        }
+        address{
+            text-align: center;
+            margin: 2% 0%;
+        }
+        #submit{
+            padding: 5px 15px;
+            background-color: brown;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #submit:hover{
+            background-color: black;
+            opacity: 0.8;
+            transform: scale(1.09);
+            transition: all 0.3s ease;
+        }
+        #image-gallery img{
+            border-radius: 10px;
+        }
+
+        .footer-content ul{
+            text-align: center;
+        }
+        .list{
+            padding: 0;
+        }
+        .list li{
+            width: auto;
+            text-align: center;
+            display: inline-flex;
+            list-style-type: none;
+            padding: 0% 7%;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        }
+        .list li::before{
+            content: '';
+            position:absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 100%;
+            width: 0;
+            height: 3px;
+            background: lightyellow;
+            transition-duration:0.5s;
+        }
+        .list li:hover::before{
+            width: 70px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: lightsalmon;
+        }
+       
+        video{
+            width: 315px; 
+            height:400px;   
+        }
+        
+        
